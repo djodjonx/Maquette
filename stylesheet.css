@@ -1,0 +1,253 @@
+body {
+    background-color: black;
+    color: #FFF;
+}
+
+.fond {
+    background-image: url(img/bg.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+.container {
+    background-image: url(img/full.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+h1 {
+    border-top: 5px solid yellow;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0 auto;
+    font-size: 21px;
+    font-family: 'Arial Black', arial;
+}
+
+h2 {
+    font-size: 60px;
+    font-family: 'Arial Black', arial;
+    z-index: 5;
+    position: relative;
+    top: 50px;
+    left: 0px;
+    letter-spacing: -6px;
+    text-align: center;
+}
+
+h3 {
+    background-color: yellow;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: -10px;
+    font-family: 'Arial Black', arial;
+}
+
+h4 {
+    color: yellow;
+    background-color: black;
+    font-family: 'Arial Black', arial;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+    color: yellow;
+    word-spacing: normal;
+}
+
+p {
+    font-size: 12px;
+    line-height: 14px;
+    word-spacing: 2px;
+}
+
+.border-left {
+    border-left: 5px solid yellow;
+}
+
+#skate-left {
+    float: left;
+    margin-right: 5px;
+    padding: 1px;
+    border: 1px solid yellow;
+    background-color: black;
+}
+
+#skate-right {
+    float: right;
+    padding: 1px;
+    border: 1px solid yellow;
+    background-color: black;
+}
+
+#quoted-text {
+    border-top: 2px solid yellow;
+    border-bottom: 2px solid yellow;
+    padding: 4px 10px 4px 10px;
+    background-color: rgb(40, 40, 40);
+}
+
+.list-group>li {
+    border-top: 1px solid grey !important;
+    border-bottom: 1px solid grey !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-radius: 0px !important;
+    background-color: rgb(40, 40, 40)!important;
+    color: grey;
+}
+
+.navigator-list {
+    list-style: url(img/bullet.gif);
+}
+
+.lorem-list {
+    list-style: decimal;
+    color: white;
+}
+
+#title-img {
+    width: 286px;
+    height: 372px;
+    background-image: url(img/title.jpg);
+    margin-left: 60px;
+    z-index: 3;
+}
+
+#span-left {
+    position: absolute;
+    left: -30px;
+    top: 0px;
+    z-index: 1
+}
+
+#right-first-list {
+    margin-top: 10px;
+}
+
+.link-list {
+    list-style: url(img/star1.jpg);
+}
+
+.link-list>li:hover {
+    list-style: url(img/star2.jpg);
+}
+
+.right-link {
+    color: #FFF;
+    font-family: 'Arial Black', arial;
+    font-size: 20px;
+}
+
+.right-link:hover {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Arial Black', arial;
+    font-size: 20px;
+}
+
+.right-second-list {
+    margin-top: 12px;
+    border: 2px solid yellow;
+}
+
+.popup-list {
+    border: 4px solid yellow;
+    margin-top: -10px;
+    padding-bottom: 120px;
+    padding-left: 5px;
+    list-style: none;
+}
+
+.popup-list>div {
+    display: none;
+    padding-left: 5px;
+}
+
+.pop-up {
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.pop-up>a {
+    font-family: 'Arial Black', arial;
+    color: white;
+}
+
+.pop-up>a:hover {
+    font-family: 'Arial Black', arial;
+    color: white;
+    text-decoration: none;
+}
+
+#pop1:hover+#popup-1 {
+    display: block;
+}
+
+#pop2:hover+#popup-2 {
+    display: block;
+}
+
+#pop3:hover+#popup-3 {
+    display: block;
+}
+
+#pop4:hover+#popup-4 {
+    display: block;
+}
+
+#pop5:hover+#popup-5 {
+    display: block;
+}
+
+#pop6:hover+#popup-6 {
+    display: block;
+}
+
+#pop7:hover+#popup-7 {
+    display: block;
+}
+
+#pop8:hover+#popup-8 {
+    display: block;
+}
+
+.right-text {
+    border: 4px solid yellow;
+    margin-top: -12px;
+    padding: 5px;
+}
+
+.pink {
+    color: rgb(236, 21, 91)!important;
+    padding-left: 2px;
+    padding-top: 2px;
+    font-family: 'Arial Black', arial;
+}
+
+.div-down {
+    background-color: black;
+    padding-left: 3px;
+    margin-left: 5px;
+    border-left: 5px solid yellow;
+}
+
+#footer {
+    margin-top: 40px;
+}
+
+#footer-img {
+    position: absolute;
+    left: 410px;
+    bottom: 0px;
+    z-index: 0;
+}
+
+#footer-txt {
+    width: 600px;
+    word-spacing: 3px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 4;
+}
